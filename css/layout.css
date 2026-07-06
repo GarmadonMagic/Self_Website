@@ -1,0 +1,28 @@
+/* Navigation Styles */
+nav {
+    background-color: var(--nav-color);
+    border-color: var(--compliment-color);
+    border-style: solid;
+    border-width: 2px;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    list-style-type: none;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--compliment-color);
+}
+
+#links {
+    text-decoration-color: white;
+}
