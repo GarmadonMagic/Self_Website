@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #251c66;
+    --secondary-color: #221b5f;
+    --white-color: #f5f6fb;
+    --nav-color: #16113f;
+    --compliment-color: #a67be6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+}
+
+html {
+    color: var(--compliment-color);
+}
+
+body {
+    padding: 1em;
+    padding-top: 0;
+    background-color: var(--primary-color);
+}
+
